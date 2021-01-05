@@ -19,3 +19,10 @@ Older versions of outlook switched from Internet Explorer to Word for rendering 
 - CSS grid-based designs
 - Javascript
 - A lot of CSS
+
+### Email-Friendly HTML
+*Use these for most things:*
+Basic, non-structural containers: **div, span**
+Headings: **h1 - h6**
+Other text: **p, strong, em**
+Images: **img**
