@@ -27,4 +27,15 @@ Headings: **h1 - h6**
 Other text: **p, strong, em**
 Images: **img**
 
-> Images must be hosted, for <img src/> tags. Src attribute can't be a relative path in an email.
+> Images must be hosted, for `<img src/>` tags. Src attribute can't be a relative path in an email.
+
+### Email-Friendly CSS
+- ~~Linked stylesheets~~
+- Embedded styles
+- Inline styles
+
+For text:
+**color, font-faily, font-size, font-style, font-weight, line-height, text-align**
+
+For block-level elements:
+**margin, padding, width, max-width**

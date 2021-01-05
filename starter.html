@@ -47,34 +47,40 @@
 			}
 
 			/* Universal styles for links and stuff */
-			a { color: #229efd; font-weight: bold; }
+			/* a { color: #229efd; font-weight: bold; }
 			a:hover { color: #fd6350; text-decoration: none; }
-			a.button:hover { background-color: #fd6350 !important; }
+			a.button:hover { background-color: #fd6350 !important; } */
 
 			/* Responsive styles */
-			@media screen and (max-width: 600px) {
+			/* @media screen and (max-width: 600px) {
 				.mobile { width: 100% !important; }
 				h1 { font-size: 24px !important; }
-			}
+			} */
 
     </style>
 </head>
 <body id="body" style="margin: 0 !important; padding: 0 !important;">
-    <div>
+    <div style="color: black; font-family: sans-serif; font-size: 18px; line-height: 28px; max-width: 600px; margin: 0 auto;">
         <!-- Logo Image -->
-        <img src="images/logo.jpg" alt="">
+        <img src="images/logo.jpg" alt="" width="60" style="border-radius: 60px; display: block; margin: 0 auto;">
 
         <!-- Headline -->
-        <h1>The Heading</h1>
+        <h1 style="margin: 40px 0; text-align: center;">The Heading</h1>
+
         <!-- Hero -->
-        <img src="images/hero.jpg" alt="">
+        <img src="images/hero.jpg" alt="" style="display: block; margin: 0 auto;">
+
         <!-- Body Copy -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, veritatis fuga numquam optio sint nam expedita laborum porro laboriosam ipsum aperiam similique qui obcaecati saepe libero repudiandae placeat quis possimus.</p>
+        <p style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, veritatis fuga numquam optio sint nam expedita laborum porro laboriosam ipsum aperiam similique qui obcaecati saepe libero repudiandae placeat quis possimus.</p>
+
+        <p style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, veritatis fuga numquam optio sint nam expedita laborum porro laboriosam ipsum aperiam similique qui obcaecati saepe libero repudiandae placeat quis possimus.</p>
         <!-- Button -->
-        <a href="https://jacobkleiman.com"></a>
+        <a href="https://jacobkleiman.com">This is a link</a>
         <!-- Footer -->
-        <p><a href="#">Feel free to unsubscribe.</a></p>
-        <p>12345 Main St.</p>
+        <div style="color: grey; font-family: sans-serif; font-size: 16px; line-height: 28px; max-width: 600px; margin: 0 auto;">
+            <p style="margin: 60px 0 20px 0;"><a href="#">Feel free to unsubscribe.</a></p>
+            <p style="margin: 0 0 60px 0;">12345 Main St.</p>
+        </div>
     </div>
 </body>
 </html>
