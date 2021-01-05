@@ -26,3 +26,5 @@ Basic, non-structural containers: **div, span**
 Headings: **h1 - h6**
 Other text: **p, strong, em**
 Images: **img**
+
+> Images must be hosted, for <img src/> tags. Src attribute can't be a relative path in an email.
