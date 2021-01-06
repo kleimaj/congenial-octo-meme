@@ -39,3 +39,10 @@ For text:
 
 For block-level elements:
 **margin, padding, width, max-width**
+
+## Email Best Practices
+
+#### Links & Buttons
+- Use descriptive links
+- Embrace link conventions
+- Don't use images for buttons
