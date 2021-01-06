@@ -46,3 +46,5 @@ For block-level elements:
 - Use descriptive links
 - Embrace link conventions
 - Don't use images for buttons
+
+> Use [Buttons.cm](https://buttons.cm/) to create bulletproof html email buttons!
