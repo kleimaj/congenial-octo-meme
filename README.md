@@ -61,3 +61,13 @@ For block-level elements:
 - Make images responsive by default
 - Use alternative text
 - Stick to the standbys: **jpg, png, gif**
+
+##### Responsive Images
+
+- Set a fixed width as a HTML attribute for Outlook.
+- Use `max-width: 100%; min-width: X; width: 100%;` to make them adjust across screen sizes.
+
+##### Background Images
+
+- Most reliable on table cells (**td**)
+- Use both HTML attributes and inline CSS
